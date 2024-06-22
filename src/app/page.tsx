@@ -4,7 +4,8 @@ export default function Home() {
   return (
     <main>
       <h1>Home page</h1>
-      <Label className='activeLabel'>Active</Label>
+      <Label state="active">Active</Label>
+      <Label state="notActive">Not Active</Label>
     </main>
   );
 }

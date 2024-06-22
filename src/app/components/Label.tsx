@@ -3,11 +3,17 @@ import styles from './Label.module.css';
 
 export interface LabelProps {
   children: React.ReactNode;
-  className: String;
+  state: 'active' | 'notActive';
 }
 
-export default function Label({ children, className }: LabelProps) {
+export default function Label({ children, state }: LabelProps) {
   return (
-    <span className={`${styles.label} ${styles[className]}`}>{children}</span>
+    <span
+      className={`${styles.label} ${
+        state === 'active' ? styles.activeLabel : styles.notActiveLabel
+      }`}
+    >
+      {children}
+    </span>
   );
 }
