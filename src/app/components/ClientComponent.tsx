@@ -11,7 +11,6 @@ export default function ClientComponent({ children }: ClientComponentProps) {
   return (
     <div>
       <span>Client Component</span>
-      <ServerComponentCopy />
       {children}
     </div>
   );
