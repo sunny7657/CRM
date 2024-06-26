@@ -1,5 +1,5 @@
 import { headers } from 'next/headers';
-import AddCompanyButton from './components/AddCompanyButton';
+import AddCompanyButton from '@/app/components/AddCompanyButton';
 
 export default function Home() {
   console.log(headers());

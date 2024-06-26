@@ -1,6 +1,6 @@
 import type React from 'react';
 import { Plus_Jakarta_Sans } from 'next/font/google';
-import './globals.css';
+import '@/app/globals.css';
 
 const font = Plus_Jakarta_Sans({ subsets: ['latin'] });
 
