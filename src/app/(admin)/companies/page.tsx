@@ -24,7 +24,7 @@ export default function Page(props: PageProps) {
           status={Status.Pending}
           promotion={true}
           country={'USA'}
-          joinedDate={'02.10.2024'}
+          joinedDate={'02.01.2024'}
         />
       </CompanyTable>
     </>

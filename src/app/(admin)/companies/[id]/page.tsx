@@ -2,15 +2,13 @@ import React from 'react';
 import Header from '@/app/components/Header';
 
 export interface PageProps {
-  params: { id: string[] };
+  params: { id: string };
 }
 
 export default function Page({ params }: PageProps) {
-  console.log(String(params.id));
   return (
     <>
-      <Header>Company ({String(params.id)})</Header>
-      <p>{new Date().toTimeString()}</p>
+      <Header>Company ({params.id})</Header>
     </>
   );
 }
