@@ -9,7 +9,7 @@ export default function Page({ params }: PageProps) {
   console.log(String(params.id));
   return (
     <>
-      <Header>Companies ({String(params.id)})</Header>
+      <Header>Company ({String(params.id)})</Header>
       <p>{new Date().toTimeString()}</p>
     </>
   );
