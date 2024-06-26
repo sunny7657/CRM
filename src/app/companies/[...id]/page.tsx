@@ -6,6 +6,7 @@ export interface PageProps {
 }
 
 export default function Page({ params }: PageProps) {
+  console.log(String(params.id));
   return (
     <>
       <Header>Companies ({String(params.id)})</Header>
