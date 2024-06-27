@@ -1,6 +1,7 @@
 import React from 'react';
 import { getSummaryStats } from '@/lib/api';
 import StatCard, { StatCardType } from '@/app/components/stat-card/StatCard';
+import Link from 'next/link';
 
 export interface PageProps {}
 
